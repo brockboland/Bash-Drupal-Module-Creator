@@ -28,4 +28,4 @@ Modify the included `template.info` and `template.module` if you want the starte
 Meta
 ====
 * Written by [Brock Boland](http://www.brockboland.com/)
-* On GitHub: http://github.com/brockboland/Bash-Drupal-Module-Creator
+* On GitHub: [http://github.com/brockboland/Bash-Drupal-Module-Creator](http://github.com/brockboland/Bash-Drupal-Module-Creator)
