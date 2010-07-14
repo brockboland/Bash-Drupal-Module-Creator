@@ -1,7 +1,12 @@
 #!/bin/bash
-mkdir $1
-chmod 775 $1
-f=`dirname $0`
-cp $f/template.module $1/$1.module
-cp $f/template.info $1/$1.info
-cd $1
+if [ -z "$1" ]
+then
+	echo "Usage: newmod module_name"
+else
+	mkdir $1
+	chmod 775 $1
+	f=`dirname $0`
+	cp $f/template.module $1/$1.module
+	cp $f/template.info $1/$1.info
+	cd $1
+fi
